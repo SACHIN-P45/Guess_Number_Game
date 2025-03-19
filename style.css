@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Emblema+One&family=Emilys+Candy&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: black;
+    color: azure;
+    text-align: center;
+}
+
+.container {
+    background-image: url('https://img.freepik.com/free-psd/3d-rendering-questions-background_23-2151455632.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 20px;
+}
+
+.logo {
+    font-size: 70px;
+    font-weight: 800;
+    color: black;
+}
+
+.button, .button2 {
+    height: 50px;
+    width: 150px;
+    text-align: center;
+    background-color: aqua;
+    font-size: xx-large;
+    font-weight: 700;
+    color: red;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.button:hover, .button2:hover {
+    background-color: lightblue;
+}
+
+input {
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    font-size: 1.5em;
+    border: 3px solid black;
+}
+
+.input_container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+#message {
+    font-size: 1.5em;
+    background-color: white;
+    color: black;
+    padding: 5px 15px;
+    border-radius: 5px;
+    margin-top: 10px;
+    display: contents;
+}
+h1{
+    color: black;
+    font-family: "Emilys Candy", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+#lives-text {
+    margin-top: 20px;
+    font-size: 24px;
+    color: white;
+    padding: 0%;
+    display: flex;
+}
+
+
+h1 {
+    font-size: 50px;
+    color: #000000;
+}
+
+h2 {
+    font-size: 30px;
+    color: #ffffff;
+}
+
+p {
+    font-size: 20px;
+    color: #ccc;
+}
+
+.button3 {
+    height: 50px;
+    width: 150px;
+    background-color: #ffcc00;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.button:hover {
+    background-color: #ffaa00;
+}
+
+
